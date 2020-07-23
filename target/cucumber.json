@@ -1,0 +1,75 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-23T13:25:38.440Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1284888703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.startTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify advantage home page is loaded",
+        "description": "",
+        "id": "advantage-shopping-page-tests;verify-advantage-home-page-is-loaded",
+        "after": [
+          {
+            "result": {
+              "duration": 101009143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestBase.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36727982658,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the advantage homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheAdvantageHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@advantageRegression"
+          },
+          {
+            "name": "@advantageHomePage"
+          }
+        ]
+      }
+    ],
+    "name": "advantage shopping page tests",
+    "description": "",
+    "id": "advantage-shopping-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/advantage/homePage.feature",
+    "tags": [
+      {
+        "name": "@advantageRegression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
