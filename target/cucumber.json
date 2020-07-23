@@ -3,11 +3,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-07-23T13:25:38.440Z",
+        "start_timestamp": "2020-07-23T16:22:05.970Z",
         "before": [
           {
             "result": {
-              "duration": 1284888703,
+              "duration": 1599729600,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 5,
+        "line": 6,
         "name": "verify advantage home page is loaded",
         "description": "",
         "id": "advantage-shopping-page-tests;verify-advantage-home-page-is-loaded",
         "after": [
           {
             "result": {
-              "duration": 101009143,
+              "duration": 103466689,
               "status": "passed"
             },
             "match": {
@@ -35,15 +35,27 @@
         "steps": [
           {
             "result": {
-              "duration": 36727982658,
+              "duration": 671952598,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I am on the advantage homepage",
+            "line": 7,
+            "name": "I open advantage url",
             "match": {
-              "location": "HomePageSteps.iAmOnTheAdvantageHomepage()"
+              "location": "HomePageSteps.iOpenAdvantageUrl()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5644612199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify homepage is loaded",
+            "match": {
+              "location": "HomePageSteps.iVerifyHomepageIsLoaded()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [

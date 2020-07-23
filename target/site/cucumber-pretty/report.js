@@ -26,11 +26,21 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am on the advantage homepage",
+  "name": "I open advantage url",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "HomePageSteps.iAmOnTheAdvantageHomepage()"
+  "location": "HomePageSteps.iOpenAdvantageUrl()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I verify homepage is loaded",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HomePageSteps.iVerifyHomepageIsLoaded()"
 });
 formatter.result({
   "status": "passed"
